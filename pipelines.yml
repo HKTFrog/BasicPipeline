@@ -7,7 +7,7 @@ resources:
       # Repository path, including org name/repo name
       path:  HKTFrog/BasicPipeline
       branches:
-        # Specifies which branches will trigger dependent steps
+        # Specifies which branches will trigger dependent steps.
         include: master
 
   - name: myPropertyBag
